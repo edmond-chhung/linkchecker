@@ -76,6 +76,8 @@ First, install the required software.
 
 Now install the application.
 
+1. Go to doc/html and run the command "make all"
+
 1. Compile Python modules
    
    Run ``python setup.py sdist --manifest-only`` to create the MANIFEST
