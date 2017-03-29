@@ -76,7 +76,9 @@ First, install the required software.
 
 Now install the application.
 
-1. Compile Python modules
+1. Go to doc/html and run 'make all'
+
+2. Compile Python modules
    
    Run ``python setup.py sdist --manifest-only`` to create the MANIFEST
    file.
@@ -86,7 +88,7 @@ Now install the application.
    The CC environment variable is checked before compilation, so you can
    change the default C compiler with ``export CC=myccompiler``.
 
-2.
+3.
    a) Installation as root
       
       Run ``sudo python setup.py install`` to install LinkChecker.
